@@ -13,14 +13,6 @@ const AnimatedLogo = () => {
         setIsMounted(true);
     }, []);
 
-    const containerVariants = {
-        collapsed: {
-            width: 'auto',
-        },
-        expanded: {
-            width: 'auto',
-        }
-    };
 
     const textVariants = {
         collapsed: {
