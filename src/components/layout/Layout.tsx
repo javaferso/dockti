@@ -4,7 +4,7 @@ import Contacto from "../sections/Contacto";
 import Servicios from "../sections/Servicios";
 import Home from "../sections/Home";
 import HeroSlider from "../sections/HeroSlider";
-import Chatbot from "../chat/chatBot";  
+import Chatbot from "../chat/Chatbot";  
 import WhatsAppButton from "../ui/WhatsAppButton";
 
 interface LayoutProps {
