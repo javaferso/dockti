@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* globals.css */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Estilos personalizados adicionales */
+.backdrop-blur-sm {
+  backdrop-filter: blur(8px);
+}
+
+@layer base {
+  body {
+    @apply bg-white  text-gray-900 dark:bg-gray-900 dark:text-white transition-colors duration-200;
+  }
+}
+
