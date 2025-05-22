@@ -1,7 +1,7 @@
 // components/chat/Chatbot.tsx
 import { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { IoClose, IoPaperPlaneOutline, IoChevronDown } from 'react-icons/io5';
+import { IoClose, IoPaperPlaneOutline } from 'react-icons/io5';
 import { RiRobot2Line } from 'react-icons/ri';
 
 interface Message {

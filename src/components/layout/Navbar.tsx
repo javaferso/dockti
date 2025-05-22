@@ -2,14 +2,12 @@
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import ThemeToggle from '@/components/ui/ThemeToggle';
-import Image from 'next/image';
 import AnimatedLogo from '@/components/ui/AnimatedLogo';
 import { useState } from 'react';
 import { useEffect } from 'react';
 
 
 const Navbar = () => {
-    const [isOpen, setIsOpen] = useState(false);
     const [isMounted, setIsMounted] = useState(false);
 
     useEffect(() => {

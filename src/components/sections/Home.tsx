@@ -1,9 +1,7 @@
 // components/sections/Home.tsx
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import Link from 'next/link';
 import { ChevronDownIcon } from '@heroicons/react/24/outline';
-import { useEffect } from 'react';
 
 
 const Home: React.FC = () => {

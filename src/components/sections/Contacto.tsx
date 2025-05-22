@@ -1,16 +1,10 @@
 // components/sections/Contacto.tsx
 import { motion } from 'framer-motion';
-import React, { useState } from 'react';
 import { PaperAirplaneIcon } from '@heroicons/react/24/outline';
 import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
 
 const Contacto: React.FC = () => {
-    const [formState, setFormState] = useState({
-        nombre: '',
-        email: '',
-        mensaje: ''
-    });
-
+    
     const inputVariants = {
         focus: {
             scale: 1.02,
