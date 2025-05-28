@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { IoLogoWhatsapp } from 'react-icons/io5';
 
 const WhatsAppButton = () => {
-    const phoneNumber = '+56912345678'; // Reemplaza con tu número
+    const phoneNumber = '+56949469213'; // Reemplaza con tu número
     const message = '¡Hola! Me gustaría obtener más información sobre sus servicios.';
 
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;

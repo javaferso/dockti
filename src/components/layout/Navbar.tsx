@@ -20,9 +20,9 @@ const Navbar = () => {
   
   const navItems = [
     { label: 'Home', href: '/' },
-    { label: 'Services', href: '#services' },
+    { label: 'Servicios', href: '#services' },
     { label: 'Blog', href: '/blog' },            // Página normal
-    { label: 'Contact', href: '/#contacto' },    // Sección en index
+    { label: 'Contacto', href: '/#contacto' },    // Sección en index
   ];
   return (
     <motion.nav 

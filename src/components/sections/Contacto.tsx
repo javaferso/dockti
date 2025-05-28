@@ -1,7 +1,8 @@
 // components/sections/Contacto.tsx
 import { motion } from 'framer-motion';
 import { PaperAirplaneIcon } from '@heroicons/react/24/outline';
-import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
+import { FaLinkedin, FaGithub} from 'react-icons/fa';
+import { FaX } from 'react-icons/fa6';
 
 const Contacto: React.FC = () => {
     
@@ -17,7 +18,7 @@ const Contacto: React.FC = () => {
     const socialLinks = [
         { icon: <FaLinkedin className="w-6 h-6" />, href: 'https://linkedin.com/in/tu-perfil', label: 'LinkedIn' },
         { icon: <FaGithub className="w-6 h-6" />, href: 'https://github.com/tu-usuario', label: 'GitHub' },
-        { icon: <FaTwitter className="w-6 h-6" />, href: 'https://twitter.com/tu-usuario', label: 'Twitter' }
+        { icon: <FaX className="w-6 h-6" />, href: 'https://twitter.com/tu-usuario', label: 'Twitter' }
     ];
 
     return (
@@ -124,7 +125,7 @@ const Contacto: React.FC = () => {
                                         </div>
                                         <div>
                                             <p className="text-sm text-gray-500 dark:text-gray-400">Email</p>
-                                            <p className="text-gray-900 dark:text-white">contacto@tuempresa.com</p>
+                                            <p className="text-gray-900 dark:text-white">contacto@dockti.cl</p>
                                         </div>
                                     </div>
                                     <div className="flex items-center space-x-3">

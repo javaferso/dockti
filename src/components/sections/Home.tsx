@@ -70,10 +70,10 @@ const Home: React.FC = () => {
                         className="grid grid-cols-1 md:grid-cols-4 gap-8 mt-20 text-white"
                     >
                         {[
-                            { number: "15+", text: "Años de Experiencia" },
-                            { number: "500+", text: "Proyectos Exitosos" },
-                            { number: "100+", text: "Clientes Satisfechos" },
-                            { number: "50+", text: "Profesionales TI" }
+                            { number: "14+", text: "Años de Experiencia" },
+                            { number: "20+", text: "Proyectos Exitosos" },
+                            { number: "30+", text: "Clientes Satisfechos" },
+                            { number: "5+", text: "Profesionales TI" }
                         ].map((stat, index) => (
                             <motion.div
                                 key={index}
